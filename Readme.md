@@ -1,34 +1,79 @@
-# Clone the repository
+🎟️ Event Booking & Registration Platform
+Overview
 
-git clone https://github.com/Shhaan/Ominify-assesment.git
+This project is a full-stack event management application built using Django (backend) and Next.js (frontend).
 
-# Navigate into the project directory
+It allows users to create events and manage attendee registrations with email validation. Backend functionality is tested using pytest to ensure reliability and correctness.
 
-cd Ominify-assesment
+Features
 
-# Pull the latest changes from the repository (optional, but good practice)
+Create and manage events
 
-git pull origin main
+Attendee registration system
 
-# Backend Setup (Django)
+Email validation during registration
 
-cd backend
-python -m venv venv
-source venv/bin/activate # For macOS/Linux
+Full-stack architecture (Django + Next.js)
 
-# venv\Scripts\activate # For Windows
+API-based communication
 
-pip install -r req.txt
-python manage.py migrate
-python manage.py runserver
+Backend unit testing using pytest
 
-# Frontend Setup (Next.js)
+Clean and scalable project structure
 
-cd ../frontend
-npm install
-npm run dev
+User Flow
 
-# Running Pytest
+User creates an event
 
-cd ../backend
-pytest
+Attendees register using email
+
+Email validation ensures correct input
+
+Event and attendee data stored in database
+
+Backend tests validate core functionality
+
+Tech Stack
+Backend
+
+Django
+
+Django ORM
+
+Pytest (for testing)
+
+Frontend
+
+Next.js
+
+React
+
+Database
+
+PostgreSQL / SQLite (depending on setup)
+
+Testing
+
+Backend logic tested using pytest
+
+Covers:
+
+Event creation
+
+Attendee registration
+
+Email validation
+
+API responses
+
+Learning Outcomes
+
+Full-stack development (Django + Next.js)
+
+REST API design
+
+Email validation logic
+
+Writing backend tests with pytest
+
+Structuring scalable applications
