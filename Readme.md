@@ -1,79 +1,84 @@
-🎟️ Event Booking & Registration Platform
-Overview
+# 🎟️ Event Booking & Registration Platform
 
-This project is a full-stack event management application built using Django (backend) and Next.js (frontend).
+## Overview
 
-It allows users to create events and manage attendee registrations with email validation. Backend functionality is tested using pytest to ensure reliability and correctness.
+This is a full-stack event management application built with Django
+(backend) and Next.js (frontend).\
+The platform allows users to create events and register attendees with
+proper email validation.
 
-Features
+Backend functionality is tested using pytest to ensure reliability and
+correctness.
 
-Create and manage events
+------------------------------------------------------------------------
 
-Attendee registration system
+## Features
 
-Email validation during registration
+-   Create and manage events
+-   Attendee registration system
+-   Email validation during registration
+-   REST API communication between backend and frontend
+-   Backend unit testing using pytest
+-   Structured and scalable project architecture
 
-Full-stack architecture (Django + Next.js)
+------------------------------------------------------------------------
 
-API-based communication
+## Architecture
 
-Backend unit testing using pytest
+### Backend
 
-Clean and scalable project structure
+-   Django
+-   Django ORM
+-   REST APIs
+-   Pytest for automated testing
 
-User Flow
+### Frontend
 
-User creates an event
+-   Next.js
+-   React
 
-Attendees register using email
+### Database
 
-Email validation ensures correct input
+-   PostgreSQL / SQLite (based on environment)
 
-Event and attendee data stored in database
+------------------------------------------------------------------------
 
-Backend tests validate core functionality
+## Application Flow
 
-Tech Stack
-Backend
+1.  Event is created through the system
+2.  Attendees register using their email
+3.  Email validation ensures correct format and integrity
+4.  Event and attendee data stored in database
+5.  Backend tests validate core logic and API behavior
 
-Django
+------------------------------------------------------------------------
 
-Django ORM
+## Testing
 
-Pytest (for testing)
+The backend is tested using pytest, covering: - Event creation logic -
+Attendee registration - Email validation - API responses
 
-Frontend
+------------------------------------------------------------------------
 
-Next.js
+## Purpose
 
-React
+This project was built to: - Practice full-stack development with Django
+and Next.js - Implement clean API architecture - Apply backend testing
+using pytest - Design a scalable event registration system
 
-Database
+------------------------------------------------------------------------
 
-PostgreSQL / SQLite (depending on setup)
+## Future Improvements
 
-Testing
+-   Email confirmation system
+-   Event capacity management
+-   Role-based access control
+-   Admin dashboard
+-   Payment integration for paid events
 
-Backend logic tested using pytest
+------------------------------------------------------------------------
 
-Covers:
+## Status
 
-Event creation
-
-Attendee registration
-
-Email validation
-
-API responses
-
-Learning Outcomes
-
-Full-stack development (Django + Next.js)
-
-REST API design
-
-Email validation logic
-
-Writing backend tests with pytest
-
-Structuring scalable applications
+Core event creation and attendee registration functionality completed.
+Testing implemented for backend services.
